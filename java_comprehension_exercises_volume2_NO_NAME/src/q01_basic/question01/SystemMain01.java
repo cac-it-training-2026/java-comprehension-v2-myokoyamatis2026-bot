@@ -22,7 +22,20 @@ public class SystemMain01 {
 
 	public static void main(String[] args) {
 		//TODO ここから実装する
+		Member member1 = new Member();
+		Member menber2 = new Member();
 
+		member1.name = "Miura Manabu";
+		member1.age = 24;
+		member1.rank = 1;
+
+		menber2.name = "sato kensuke";
+		menber2.age = 36;
+		menber2.rank = 2;
+
+		System.out.println("---SHOW DATA---");
+		member1.showMember();
+		menber2.showMember();
 	}
 
 }
