@@ -1,4 +1,4 @@
-package q01_basic.question04;
+package q01_basic.question05;
 
 class MemberManager {
 
@@ -10,9 +10,10 @@ class MemberManager {
 
 	//TODO showAllMembersメソッドを実装する
 
-	public static void showAllMembers(Member[] members) {
-		for (Member member : members) {
+	public static void showAllMembers(AbstMember[] members) {
+		for (AbstMember member : members) {
 			member.showMember();
 		}
 	}
+
 }
