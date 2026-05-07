@@ -8,7 +8,7 @@ public class NonMember extends AbstMember {
 
 	@Override
 	public void buyItem() {
-		System.out.println(name + " purchased the item at a fixed price");
+		System.out.println(getName() + " purchased the item at a fixed price");
 	}
 
 	@Override
