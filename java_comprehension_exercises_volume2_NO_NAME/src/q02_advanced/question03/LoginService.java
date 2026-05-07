@@ -11,4 +11,5 @@ class LoginService {
 	private MemberStorage memberStorage;
 
 	//TODO ここから処理を記述
+
 }
